@@ -1,0 +1,76 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light-mode {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .light-mode .table-section {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-mode {
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .table-section {
+    background-color: #3a3a3a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-header h2 {
+    font-size: 2em;
+  }
+  
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .theme-toggle:hover {
+    color: #007acc;
+  }
+  
+  .theme-toggle span {
+    margin-left: 5px;
+  }
+  
+
+  .charts-section,
+  .table-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .table-section {
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  
+  button,
+  .table-section,
+  .theme-toggle {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
